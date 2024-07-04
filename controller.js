@@ -1,3 +1,4 @@
+// ----------------------------------------------------------------------------------------------------------------------------
 function acessar(){
    let loginEmailm = document.getElementById('loginEmail').value;
    let loginSenha = document.getElementById('loginSenha').value;
@@ -9,3 +10,6 @@ function acessar(){
        // else{ alert('campos preenchisdos com sucesso'); }
        window.location.hrefc = 'cadrastro.html'
 }
+
+// FUNÇÃO PARA ARMAZENAMENTO DE NOMES EM ARRAY
+//------------------------------------------------------------------------------------------------------------------------
