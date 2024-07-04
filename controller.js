@@ -6,6 +6,6 @@ function acessar(){
          alert('favor preencher todos os campos');
 
       }
-       //else{ alert('campos preenchisdos com sucesso');}
+       // else{ alert('campos preenchisdos com sucesso'); }
        window.location.hrefc = 'cadrastro.html'
 }
