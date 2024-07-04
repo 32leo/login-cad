@@ -17,4 +17,5 @@ function acessar(){
 var dadosLista = [];
 function salarUser(){
    
+
 }
