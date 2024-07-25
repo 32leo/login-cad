@@ -15,7 +15,16 @@ function acessar(){
 // FUNÇÃO PARA ARMAZENAMENTO DE NOMES EM ARRAY
 //------------------------------------------------------------------------------------------------------------------------
 var dadosLista = [];
-function salarUser(){
-   
+function salvarUser(){
+   let nomeUser = document.getElementById('nomeUser').value;
+
+   if(nomeUser){
+      dadosLista.push(nomeUser);
+      console.log(dadosLista);
+
+   }else{
+      alert('porfavor iforme um nome para cadastro');
+   }
+
 
 }
