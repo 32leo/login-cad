@@ -28,3 +28,9 @@ function salvarUser(){
 
 
 }
+
+function criarLista(){
+    let tabela = document.getElementById('tabela').innerHTML = "<tr> <th>Nome Usuario</th><th>Acões</th></tr>";
+    
+
+}
