@@ -1,6 +1,6 @@
 # tela de login
 
-## essa ea primeira parate do codigo onde vc devera fazer o login para poder se cadastrar 
+## essa ea primeira parate do codigo onde você devera fazer o login para poder se cadastrar 
 
 ![](login.png)
 
