@@ -1,3 +1,4 @@
+// validar o acesso ao login
 // ----------------------------------------------------------------------------------------------------------------------------
 function acessar(){
    let loginEmail = document.getElementById('loginEmail').value;
