@@ -53,3 +53,9 @@ function excluir(i){
    document.getElementById('tabela').deleteRow(i);
 
 }
+// função para excluir G-mail da lista 
+// ----------------------------------------------------------------------------------------------------------------
+function excluir(){
+   document.splice((i - 1), 1);
+   document.getElementById('tabela').deleteRow(i)
+}
