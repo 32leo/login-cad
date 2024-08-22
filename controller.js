@@ -1,5 +1,4 @@
-// validar o acesso ao login
-// ----------------------------------------------------------------------------------------------------------------------------
+
 function acessar(){
    let loginEmail = document.getElementById('loginEmail').value;
    let loginSenha = document.getElementById('loginSenha').value;
@@ -18,6 +17,7 @@ function acessar(){
 var dadosLista = [];
 function salvarUser(){
    let nomeUser = document.getElementById('nomeUser').value;
+   let gmailUser = document.getElementById('GmailUser').value;
 
    if(nomeUser){
       dadosLista.push(nomeUser);
@@ -53,9 +53,11 @@ function excluir(i){
    document.getElementById('tabela').deleteRow(i);
 
 }
-// função para excluir G-mail da lista 
-// ----------------------------------------------------------------------------------------------------------------
-function excluir(){
-   document.splice((i - 1), 1);
-   document.getElementById('tabela').deleteRow(i)
-}
+
+
+
+
+
+
+
+
